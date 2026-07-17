@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "slv.dish.pupusa", :name "Pupusa", :country "SLV", :kind :dish, :summary "Thick griddle cake stuffed with cheese, beans, chicharron or squash; the national dish of El Salvador with its own National Pupusa Day, and recognized by the WTO in 2018 as El Salvador's designation of origin.", :url "https://en.wikipedia.org/wiki/Pupusa", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slv.dish.curtido", :name "Curtido", :country "SLV", :kind :dish, :summary "Lightly fermented cabbage, onion and carrot relish typical of Salvadoran cuisine, commonly served alongside pupusas.", :url "https://en.wikipedia.org/wiki/Curtido", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slv.dish.yuca-frita", :name "Yuca frita", :country "SLV", :kind :dish, :summary "Deep-fried cassava root served with curtido and chicharron, listed among the dishes of Salvadoran cuisine.", :url "https://en.wikipedia.org/wiki/Salvadoran_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slv.beverage.horchata-de-morro", :name "Horchata de morro", :country "SLV", :kind :beverage, :summary "El Salvador's version of horchata, made by grinding jicaro (morro) seeds with rice rather than the Spanish tiger-nut or Mexican rice-only bases used elsewhere.", :url "https://en.wikipedia.org/wiki/Horchata", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slv.craft.ilobasco-pottery", :name "Ilobasco pottery", :country "SLV", :kind :craft, :summary "Locally extracted clay craftsmanship from the city of Ilobasco, including miniature scenes and \"surprises\" (a hidden scene under a fruit- or house-shaped clay cover); described as valuable architectural heritage and a major tourist attraction in El Salvador.", :url "https://en.wikipedia.org/wiki/Ilobasco", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Joya_de_Cer%C3%A9n", :id "slv.heritage.joya-de-ceren", :kind :heritage, :name-local "Joya de Cerén", :country "SLV", :retrieved-at "2026-07-17", :summary "Pre-Hispanic Maya farming community buried by the Laguna Caldera volcano around AD 600, nicknamed the \"Pompeii of the Americas\"; inscribed on the UNESCO World Heritage List in 1993 for its archaeological importance.", :name "Joya de Ceren", :url-provenance :wikipedia-en}
+]
