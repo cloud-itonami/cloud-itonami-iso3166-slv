@@ -8,7 +8,7 @@
   Oficial No. 43, Tomo 438, 2 de marzo de 2023). Ley de Compras Públicas
   replaced the earlier LACAP (Decreto Legislativo No. 868, 2000).
   COMPRASAL is the electronic backbone/public portal; RUPES is the
-  mandatory national supplier registry (see `src/marketentry/facts.cljc`)
+  mandatory national supplier registry (see `src/marketentry/facts.cljk`)
 - Registro de Comercio (Código de Comercio, Decreto Legislativo No. 671,
   dependency of the Centro Nacional de Registros -- CNR) business
   registration -- required for legal effect of the escritura social

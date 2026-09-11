@@ -50,7 +50,7 @@ portal (`www.asamblea.gob.sv`, fetched/`pdftotext`-verified
   a shape genuinely different from every other iso3166 sibling's (no
   separate third-party certifying authority is involved, unlike
   Nicaragua's Comisión de Verificación de Proveedores del Estado).
-- `src/statute/facts.cljc` -- general-law catalog: Ley de Compras
+- `src/statute/facts.cljk` -- general-law catalog: Ley de Compras
   Públicas itself (also catalogued here as an ongoing compliance
   statute, not just a market-entry gate); Código de Comercio (D.L. 671,
   1970) -- Registro de Comercio business registration, dependent on the
@@ -91,7 +91,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for El Salvador:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
